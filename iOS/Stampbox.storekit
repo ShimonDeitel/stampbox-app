@@ -1,0 +1,41 @@
+{
+  "identifier" : "StampboxStoreKit",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "stampbox_group",
+      "localizations" : [],
+      "name" : "Stampbox Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "stampbox_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited stamps and album-page layout export",
+              "displayName" : "Stampbox Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "stampbox_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Stampbox Pro Monthly",
+          "subscriptionGroupID" : "stampbox_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
